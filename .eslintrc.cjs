@@ -15,9 +15,10 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
     '@typhonjs-fvtt/eslint-config-foundry.js',
+    'prettier',
   ],
 
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'prettier'],
 
   rules: {
     // Specify any specific ESLint rules.
@@ -29,6 +30,7 @@ module.exports = {
       rules: {
         '@typescript-eslint/no-var-requires': 'off',
         '@typescript-eslint/no-shadow': ['error', { builtinGlobals: true, hoist: 'all', allow: ['event'] }],
+        'prettier/prettier': 2,
       },
     },
   ],
