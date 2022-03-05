@@ -2,14 +2,14 @@
   "private": true,
   "name": "kalymba",
   "description": "Kalymba RPG game system for Foundry VTT",
-  "license": "",
+  "license": "GPL-3.0",
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/canecas-e-dados/kalymba"
+    "url": "https://github.com/itsmegrave/kalymba"
   },
   "bugs": {
-    "url": "https://github.com/canecas-e-dados/kalymba/issues"
+    "url": "https://github.com/itsmegrave/kalymba/issues"
   },
   "contributors": [
     {
