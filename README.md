@@ -1,10 +1,20 @@
-# kalymba
+# Kalymba
 
-Please add your description here.
+![GitHub](https://img.shields.io/github/license/itsmegrave/kalymba?style=flat-square)
+![GitHub release (latest by date)](https://img.shields.io/github/downloads/itsmegrave/kalymba/latest/total?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/itsmegrave/kalymba?style=flat-square)
+![Foundry](https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/itsmegrave/kalymba/main/src/system.json&label=Foundry&query=$.compatibleCoreVersion&colorB=blue&style=flat-square)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/itsmegrave/kalymba.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/itsmegrave/kalymba/alerts/)
+
+Kalymba é um RPG de ação e aventura épica inspirado nas histórias, culturas e mitologias do continente africano. Indicado ao prêmio Cubo de Ouro na categoria de melhor jogo de mesa, Kalymba já tem seu lugar entre os grandes títulos do RPG nacional como Tormenta 20 e A Herança de Cthulhu.
+
+O jogo conta com um sistema próprio e sem classes pré-definidas, o que dá aos jogadores a liberdade de criarem os mais variados arquétipos de personagens. Os testes são feitos exclusivamente com dados de seis faces (d6) e as mecânicas são de fácil aprendizagem. O livro básico de Kalymba traz todas as informações necessárias para jogar, incluindo diferentes opções de raças, perícias, habilidades, equipamentos, mandingas e monstros, além de dezenas de ilustrações originais belíssimas.
 
 ## Installation
 
-Please add your installation instructions here.
+1. Go to the setup page and choose **Game Systems**.
+2. Click the **Install System** button, and paste in this [manifest link](https://github.com/itsmegrave/kalymba/releases/latest/download/system.json)
+3. Create a Game World using the Forbidden Lands system.
 
 ## Development
 
@@ -14,6 +24,7 @@ In order to build this system, recent versions of `node` and `yarn` are
 required. Most likely, using `npm` also works, but only `yarn` is officially
 supported. We recommend using the latest lts version of `node`. If you use `nvm`
 to manage your `node` versions, you can simply run
+
 
 ```
 nvm install
