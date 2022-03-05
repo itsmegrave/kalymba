@@ -1,14 +1,14 @@
 {
   "name": "kalymba",
-  "title": "kalymba",
-  "description": "",
+  "title": "Kalymba",
+  "description": "Kalymba é um RPG de ação e aventura épica inspirado nas histórias, culturas e mitologias do continente africano. Indicado ao prêmio Cubo de Ouro na categoria de melhor jogo de mesa, Kalymba já tem seu lugar entre os grandes títulos do RPG nacional como Tormenta 20 e A Herança de Cthulhu.",
   "version": "This is auto replaced",
-  "author": "<your name>",
+  "author": "itsmegrave",
   "authors": [
     {
-      "name": "<your name>",
-      "email": "<optionally your e-mail address>",
-      "discord": "<optionally your discord username>"
+      "name": "itsmegrave",
+      "email": "itsmegrave@outlook.com",
+      "discord": "Sammael#2608"
     }
   ],
   "minimumCoreVersion": "9",
@@ -20,22 +20,22 @@
   "dependencies": [],
   "languages": [
     {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
+      "lang": "pt-br",
+      "name": "Português",
+      "path": "lang/pt-br.json"
     }
   ],
   "socket": false,
   "url": "This is auto replaced",
   "manifest": "This is auto replaced",
   "download": "This is auto replaced",
-  "license": "",
+  "license": "GPL-3.0",
   "readme": "",
   "bugs": "",
   "changelog": "",
-  "initiative": "",
+  "initiative": "2d6",
   "gridDistance": 1,
-  "gridUnits": "",
+  "gridUnits": "m",
   "primaryTokenAttribute": "",
   "secondaryTokenAttribute": ""
 }
