@@ -2,7 +2,7 @@
   "private": true,
   "name": "kalymba",
   "description": "Kalymba RPG game system for Foundry VTT",
-  "license": "GPL-3.0",
+  "license": "GNU GPLv3",
   "homepage": "",
   "repository": {
     "type": "git",
