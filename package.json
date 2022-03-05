@@ -1,20 +1,20 @@
 {
   "private": true,
   "name": "kalymba",
-  "description": "",
+  "description": "Kalymba RPG game system for Foundry VTT",
   "license": "",
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/canecas-e-dados/kalymba"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/canecas-e-dados/kalymba/issues"
   },
   "contributors": [
     {
-      "name": "",
-      "email": ""
+      "name": "itsmegrave",
+      "email": "itsmegrave@outlook.com"
     }
   ],
   "type": "module",
@@ -28,7 +28,8 @@
     "lint": "eslint --ext .ts,.js,.cjs .",
     "lint:fix": "eslint --ext .ts,.js,.cjs --fix .",
     "format": "prettier --write \"./**/*.(ts|js|cjs|json|yml|scss)\"",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@league-of-foundry-developers/foundry-vtt-types": "^9.249.4",
@@ -38,6 +39,7 @@
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.13.0",
     "@typhonjs-fvtt/eslint-config-foundry.js": "^0.8.0",
+    "cz-conventional-changelog": "3.3.0",
     "eslint": "^8.10.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
@@ -45,7 +47,7 @@
     "gulp": "^4.0.2",
     "gulp-dart-sass": "^1.0.2",
     "gulp-sourcemaps": "^3.0.0",
-    "husky": "^7.0.4",
+    "husky": "^7.0.0",
     "lint-staged": "^12.3.5",
     "prettier": "^2.5.1",
     "rollup": "^2.69.1",
@@ -58,5 +60,10 @@
   "lint-staged": {
     "*.(ts|js|cjs)": "eslint --fix",
     "*.(json|yml|scss)": "prettier --write"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
