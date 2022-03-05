@@ -1,0 +1,32 @@
+<form class="flexcol {{cssClass}}" autocomplete="off">
+    {{!-- Sheet Header --}}
+    <header class="sheet-header card">
+        <img class="profile-img" src="{{data.img}}" data-edit="img" title="{{data.name}}" />
+        <div class="header-fields">
+            <h1 class="charname">
+                <input name="name" type="text" value="{{data.name}}" placeholder="Name" />
+            </h1>
+        </div>
+        </div>
+    </header>
+    <section class="sheet-body">
+        <div>
+
+            <label for="data.description">{{localize "KALYMBA.ITEM.DESCRIPTION"}}</label>
+            <textarea name="data.description">{{data.data.description}}</textarea>
+        </div>
+        <div>
+            <label for="data.itemValue">{{localize "KALYMBA.ITEM.PRICE"}}</label>
+            <input name="data.itemValue" value="{{data.data.itemValue}}" data-dtype="Number" />
+            <select name="data.currencyKind">
+                {{#select data.data.currencyKind}}
+                {{#each config.currencyType as |name type|}}
+                <option value="{{type}}">{{localize name}}</option>
+                {{/each}}
+                {{/select}}
+            </select>
+        </div>
+
+
+    </section>
+</form>

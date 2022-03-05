@@ -1,1 +1,16 @@
-{}
+{
+  "KALYMBA": {
+    "ITEM": {
+      "DESCRIPTION": "Descrição",
+      "PRICE": "Preço",
+      "CURRENCY": "Moeda"
+    },
+    "CURRENCY": {
+      "SALT": "kg(s) de Sal",
+      "COWRIE_SHELL": "Búzio(s)",
+      "BRONZE_GANA": "Gana(s) de Bronze",
+      "SILVER_GANA": "Gana(s) de Prata",
+      "GOLD_GANA": "Gana(s) de Ouro"
+    }
+  }
+}
