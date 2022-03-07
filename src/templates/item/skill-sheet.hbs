@@ -1,0 +1,30 @@
+<form class="flexcol {{cssClass}}" autocomplete="off">
+  {{!-- Sheet Header --}}
+  <header class="sheet-header card">
+    <img class="profile-img" src="{{data.img}}" data-edit="img" title="{{data.name}}" />
+    <div class="header-fields">
+      <h1 class="charname">
+        <input name="name" type="text" value="{{data.name}}" placeholder="Name" />
+      </h1>
+    </div>
+    </div>
+  </header>
+  <section class="sheet-body">
+    <div><label for="data.modifier">{{localize "KALYMBA.ITEM.SKILL.MODIFIER"}}</label>
+      <input name="data.modifier" value="{{data.data.modifier}}" data-dtype="Number" />
+    </div>
+    <div>
+
+      <label for="data.description">{{localize "KALYMBA.ITEM.DESCRIPTION"}}</label>
+      <textarea name="data.description">{{data.data.description}}</textarea>
+    </div>
+    <div>
+      <label for="data.attribute">{{localize "KALYMBA.ITEM.SKILL.ATTRIBUTE"}}</label>
+      <select name="data.attribute">
+        {{#select data.data.attribute}}
+        {{> "systems/kalymba/templates/attribute-select.hbs"}}
+        {{/select}}
+      </select>
+    </div>
+  </section>
+</form>
