@@ -4,7 +4,7 @@
     "templates": {}
   },
   "Item": {
-    "types": ["item"],
+    "types": ["item", "skill"],
     "templates": {
       "itemDescription": {
         "description": ""
@@ -16,6 +16,12 @@
     },
     "item": {
       "templates": ["itemDescription", "itemPrice"]
+    },
+    "skill": {
+      "templates": ["itemDescription"],
+      "attribute": "",
+      "isCraftSkill": false,
+      "modifier": 0
     }
   }
 }

@@ -3,7 +3,11 @@
     "ITEM": {
       "DESCRIPTION": "Descrição",
       "PRICE": "Preço",
-      "CURRENCY": "Moeda"
+      "CURRENCY": "Moeda",
+      "SKILL": {
+        "ATTRIBUTE": "Atributo Modificador",
+        "MODIFIER": "Modificador"
+      }
     },
     "CURRENCY": {
       "SALT": "kg(s) de Sal",
@@ -11,6 +15,15 @@
       "BRONZE_GANA": "Gana(s) de Bronze",
       "SILVER_GANA": "Gana(s) de Prata",
       "GOLD_GANA": "Gana(s) de Ouro"
+    },
+    "ATTRIBUTES": {
+      "TITLE": "Atributos",
+      "STRENGTH": { "LONG": "Força", "SHORT": "FOR" },
+      "AGILITY": { "LONG": "Agilidade", "SHORT": "AGI" },
+      "STAMINA": { "LONG": "Stamina", "SHORT": "VIG" },
+      "INTELLECT": { "LONG": "Intelecto", "SHORT": "INT" },
+      "GINGA": { "LONG": "Ginga", "SHORT": "GIN" },
+      "ORI": { "LONG": "Ori", "SHORT": "ORI" }
     }
   }
 }
