@@ -37,7 +37,7 @@
     "@rollup/plugin-typescript": "^11.0.0",
     "@rollup/stream": "^2.0.0",
     "@typescript-eslint/eslint-plugin": "^5.48.1",
-    "@typescript-eslint/parser": "^5.48.1",
+    "@typescript-eslint/parser": "^5.49.0",
     "@typhonjs-fvtt/eslint-config-foundry.js": "^0.8.0",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "^8.10.0",
