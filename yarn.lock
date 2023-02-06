@@ -474,9 +474,9 @@
     estree-walker "^2.0.2"
     picomatch "^2.3.1"
 
-"@rollup/stream@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/@rollup/stream/-/stream-2.0.0.tgz"
+"@rollup/stream@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@rollup/stream/-/stream-3.0.0.tgz#8578177aa992e1e7d932d7b8b9ac302ce272663e"
 
 "@socket.io/component-emitter@~3.0.0":
   version "3.0.0"
