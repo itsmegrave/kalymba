@@ -26,7 +26,7 @@ This game system supports and enhances the play experience of _Kalymba_ in [Foun
 
 1. Go to the setup page and choose **Game Systems**.
 2. Click the **Install System** button, and paste in this [manifest link](https://github.com/itsmegrave/kalymba/releases/latest/download/system.json)
-3. Create a Game World using the Forbidden Lands system.
+3. Create a Game World using the Kalymba system.
 
 </div>
 
@@ -36,10 +36,7 @@ This game system supports and enhances the play experience of _Kalymba_ in [Foun
 
 ### Prerequisites
 
-In order to build this system, recent versions of `node` and `yarn` are
-required. Most likely, using `npm` also works, but only `yarn` is officially
-supported. We recommend using the latest lts version of `node`. If you use `nvm`
-to manage your `node` versions, you can simply run
+In order to build this system, recent versions of `node` and `yarn` are required. Most likely, using `npm` also works, but only `yarn` is officially supported. We recommend using the latest lts version of `node`. If you use `nvm` to manage your `node` versions, you can simply run
 
 ```shell
 nvm install

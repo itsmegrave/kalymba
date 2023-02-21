@@ -41,7 +41,7 @@ function buildCode() {
     })
     .pipe(source(`${name}.js`))
     .pipe(buffer())
-    .pipe(sourcemaps.init({ loadMaps: true }))
+    .pipe(sourcemaps.init())
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(`${distDirectory}/module`));
 }
