@@ -55,7 +55,7 @@
     "typescript": "^5.0.4",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0",
-    "yargs": "^17.7.0"
+    "yargs": "^17.7.1"
   },
   "lint-staged": {
     "*.(ts|js|cjs)": "eslint --fix",
